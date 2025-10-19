@@ -1,0 +1,11 @@
+services:
+  analisador-lexico:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: analisador-lexico
+    container_name: analisador-lexico-app
+    volumes:
+      - ../src:/app/src
+    working_dir: /app
+    restart: "no"

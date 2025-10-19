@@ -1,0 +1,51 @@
+# Compilados
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# Diretórios de build
+/bin/
+/build/
+/out/
+/target/
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+
+# SOs
+.DS_Store
+Thumbs.db
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Configs temporários
+*.tmp
+*.swp
+*.bak
+
+# Testes
+/test-output/
+/surefire-reports/
+
+# Node (se usar Prettier)
+node_modules/
+
+# Arquivos do VS Code
+.vscode/settings.json
+.vscode/launch.json

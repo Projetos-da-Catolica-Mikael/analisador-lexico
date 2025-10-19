@@ -1,0 +1,17 @@
+{
+    "name": "analisador-lexico",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "format": "prettier --write \"src/**/*.java\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "devDependencies": {
+        "prettier": "^3.6.2",
+        "prettier-plugin-java": "^2.7.6"
+    }
+}
