@@ -22,6 +22,7 @@ Principais componentes:
 
 ## 🧩 Estrutura de Pastas
 
+```
 analisador-lexico/
 ├── Dockerfile
 ├── docker-compose.yml
@@ -38,6 +39,7 @@ analisador-lexico/
 │ ├── TestaAnalisadorLexico.java
 │ └── TESTA.java
 └── package.json / package-lock.json
+```
 
 ## ⚙️ Requisitos
 
