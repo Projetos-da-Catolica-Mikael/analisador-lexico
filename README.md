@@ -20,27 +20,6 @@ Principais componentes:
 - **Programa.lex** — **arquivo de entrada** que o analisador lê e processa.
 - **Exemplo.exp / ExemploNovosTokens.exp** — arquivos alternativos de teste.
 
-## 🧩 Estrutura de Pastas
-
-```
-analisador-lexico/
-├── Dockerfile
-├── docker-compose.yml
-├── run-docker.sh
-├── Programa.lex
-├── Exemplo.exp
-├── ExemploNovosTokens.exp
-├── src/
-│ ├── AnalisadorLexico.java
-│ ├── LexerException.java
-│ ├── PalavrasChave.java
-│ ├── Simbolos.java
-│ ├── Token.java
-│ ├── TestaAnalisadorLexico.java
-│ └── TESTA.java
-└── package.json / package-lock.json
-```
-
 ## ⚙️ Requisitos
 
 - Java 17+
