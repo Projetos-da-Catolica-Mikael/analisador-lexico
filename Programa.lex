@@ -15,9 +15,11 @@ null
 new
 this
 
-// 4. Números inteiros
+// 4. Números inteiros e float
 42
 100
+4.2
+5.55
 
 // 5. Operadores aritméticos
 x + y
